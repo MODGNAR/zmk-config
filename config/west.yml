@@ -1,10 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
+      repo-path: zmk       # <-- This forces it to look in zmkfirmware/zmk explicitly
       revision: main
       import: app/west.yml
   self:
