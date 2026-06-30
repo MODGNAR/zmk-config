@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include <shields/nice_nano/boards/nice_nano.overlay>
 / {
     chosen {
         zmk,kscan = &kscan0;
